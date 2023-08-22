@@ -14,7 +14,11 @@ body {
 .header h1 {
     font-size: 40px;
 }
+.top{
+    background-color: green;
+    overflow: hidden;
 
+}
 /* Style the top navigation bar */
 .navbar {
     overflow: hidden;
