@@ -183,19 +183,19 @@ html {
 
 /* Position text in the middle of the page/image */
 .bg-text {
-    background-color: rgb(0, 0, 0);
+    /* background-color: rgb(0, 0, 0);
     /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.4);
+    /* background-color: rgba(0, 0, 0, 0.4);
     /* Black w/opacity/see-through */
-    color: #01b9f5;
-    font-weight: bold;
-    border: 3px solid #f1f1f1;
+    /* color: #01b9f5;
+                                            font-weight: bold; */
+        /* border: 3px solid #f1f1f1; */
     position:absolute;
-    top: 50%;
-    left: 50%;
+    top: -13%;
+        left: 55%;
     transform: translate(-75%, 70%);
     z-index: 10;
     width: 50%;
-    padding: 10px;
+    /* padding: 10px; */
     text-align: center;
 }
