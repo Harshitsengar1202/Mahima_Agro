@@ -9,16 +9,15 @@
 
 <body>
 
-    <div class="header">
-        <div class="logo-container">
-            <img src="logo.jpeg" height="100px" width="100px">
-            <img src="Mahima Agro text (2).png" alt="Mahima Agro" style="max-width: 100%; height: auto;">
+<div class="header">
+    <div class="logo-container">
+        <img src="logo.jpeg" height="85px" width="85px">
+        <img src="Mahima Agro text (2).png" alt="Mahima Agro" style="max-width: 70%; height: auto;">
         </div>
-        <a href="https://instagram.com/mahima_agro_?igshid=MmU2YjMzNjRlOQ==" target="_blank">
-            <img src="insta.png" alt="Instagram" style="width: 10%; height: 10%; margin-left: 10px;">
-        </a>
+    <!-- <a href="https://instagram.com/mahima_agro_?igshid=MmU2YjMzNjRlOQ==" target="_blank">
+                                                                                                                                                                    <img src="insta.png" alt="Instagram" class="instagram-logo">
+                                                                                                                                                                </a> -->
     </div>
-
     <div class="pill">
         <a href="home.html">Home</a>
         <a href="bestselling.html">Best Selling </a>
@@ -28,22 +27,24 @@
         <a href="work.html">Garden Programmers</a>
         <a href="compost.html">Compost</a>
         <a href="contact.html">Contact us</a>
-        <div class="wrapper">
+        <a href="cart.html">Cart</a>
+        <!-- <div class="wrapper">
             <form action="search()">
         
                 <input class="search" placeholder="Search...." type="text">
                 <button type="submit"><i class="fa fa-search "></i></button>
             </form>
-        </div>
+        </div> -->
         </div>
         <div class="row">
             <div class="column">
-                <div class="card">
+                <div class="card" id="plp16">
                     <img src="plasticpotred16inch.jpg" alt="Plastic Pot" style="width:50%">
                     <h3>Red Pot 16 inch(PLastic)</h3>
                     <p class="price">₹220</p>
                     <p>Red Pot 16 inch made with good quality plastic..</p>
-                    <p><button>Add to Cart</button></p>
+                    <p><button onclick="addToCart(${pplp16})">Add to Cart</button>
+                    </p>
                 </div>
             </div>
             <div class="column">
@@ -57,55 +58,109 @@
             </div>
             <div class="column">
                 <div class="card">
-                    <img src="plasticpotred16inch.jpg" alt="Plastic Pot" style="width:50%">
-                    <h3>Red Buddha Pot 16 inch(PLastic)</h3>
+                    <img src="pots catalouge\IMG-20230930-WA0073.jpg" alt="Plastic Pot" style="width:50%">
+                    <h3>Yellow Buddha Pot 16 (PLastic)</h3>
                     <p class="price">₹150</p>
-                    <p>Red Buddha Pot 16 inch made by good quality of plastic..</p>
+                    <p>Red Buddha Pot made by good quality of plastic..</p>
                     <p><button>Add to Cart</button></p>
                 </div>
             </div>
             <div class="column">
                 <div class="card">
-                    <img src="plasticpotred16inch.jpg" alt="Plastic Pot" style="width:50%">
-                    <h3>Red Buddha Pot 16 inch(PLastic)</h3>
+                    <img src="pots catalouge\IMG-20230930-WA0077.jpg" alt="Plastic Pot" style="width:50%">
+                    <h3>Double hook pot(Hard Plastic)</h3>
                     <p class="price">₹150</p>
-                    <p>Red Buddha Pot 16 inch made by good quality of plastic..</p>
+                    <p>White double hook pot made with hard plastic</p>
+                    <p><button>Add to Cart</button></p>
+                    </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <img src="pots catalouge\IMG-20230930-WA0078.jpg" alt="Plastic Pot" style="width:50%">
+                            <h3>Red Pot 14 inch(PLastic)</h3>
+                            <p class="price">₹160</p>
+                            <p>Red Pot 14 inch made with good quality plastic..</p>
+                            <p><button>Add to Cart</button></p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <img src="pots catalouge\IMG-20230930-WA0079.jpg" alt="Plastic Pot" style="width:50%">
+                            <h3>Red Pot 12 inch(PLastic)</h3>
+                            <p class="price">₹110</p>
+                            <p>Red Pot 12 inch with legs made by good quality of plastic..</p>
+                            <p><button>Add to Cart</button></p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <img src="pots catalouge\IMG-20230930-WA0080.jpg" alt="Plastic Pot" style="width:50%">
+                            <h3>Red Pot 10 inch(PLastic)</h3>
+                            <p class="price">₹70</p>
+                            <p>Red Pot 10 inch made by good quality of plastic..</p>
+                            <p><button>Add to Cart</button></p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <img src="pots catalouge\IMG-20230930-WA0082.jpg" alt="Plastic Pot" style="width:50%">
+                            <h3>Red Pot 10 inch(PLastic)</h3>
+                            <p class="price">₹70</p>
+                            <p>Red Pot 10 inch with legs made by good quality of plastic..</p>
+                            <p><button>Add to Cart</button></p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <img src="pots catalouge\IMG-20230930-WA0084.jpg" alt="Plastic Pot" style="width:50%">
+                            <h3>Red Square Pot 14 inch(PLastic)</h3>
+                            <p class="price">₹170</p>
+                            <p>Red Square Pot 10 inch made by good quality of plastic..</p>
+                            <p><button>Add to Cart</button></p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <img src="pots catalouge\IMG-20230930-WA00881.jpg" alt="Plastic Pot" style="width:50%">
+                            <h3>Single Hook pot(Green)</h3>
+                            <p class="price">₹100</p>
+                            <p>Green Single Hook pot made wtih good plastic..</p>
                     <p><button>Add to Cart</button></p>
                 </div>
             </div>
             <div class="column">
                 <div class="card">
-                    <img src="plasticpotred16inch.jpg" alt="Plastic Pot" style="width:50%">
-                    <h3>Red Buddha Pot 16 inch(PLastic)</h3>
-                    <p class="price">₹150</p>
-                    <p>Red Buddha Pot 16 inch made by good quality of plastic..</p>
+                    <img src="pots catalouge\IMG-20230930-WA00882.jpg" alt="Plastic Pot" style="width:50%">
+                    <h3>Single Hook pot(Yellow)</h3>
+                    <p class="price">₹100</p>
+                    <p>Yellow Single Hook pot made wtih good plastic..</p>
                     <p><button>Add to Cart</button></p>
                 </div>
             </div>
             <div class="column">
                 <div class="card">
-                    <img src="plasticpotred16inch.jpg" alt="Plastic Pot" style="width:50%">
-                    <h3>Red Buddha Pot 16 inch(PLastic)</h3>
-                    <p class="price">₹150</p>
-                    <p>Red Buddha Pot 16 inch made by good quality of plastic..</p>
+                    <img src="pots catalouge\IMG-20230930-WA0090.jpg" alt="Plastic Pot" style="width:50%">
+                    <h3>Red Hanging pot</h3>
+                    <p class="price">₹110</p>
+                    <p>Red Hanging pot made wtih good plastic..</p>
                     <p><button>Add to Cart</button></p>
                 </div>
             </div>
             <div class="column">
                 <div class="card">
-                    <img src="plasticpotred16inch.jpg" alt="Plastic Pot" style="width:50%">
-                    <h3>Red Buddha Pot 16 inch(PLastic)</h3>
-                    <p class="price">₹150</p>
-                    <p>Red Buddha Pot 16 inch made by good quality of plastic..</p>
+                    <img src="pots catalouge\IMG-20230930-WA00921.jpg" alt="Plastic Pot" style="width:50%">
+                    <h3>Umbrella Shaped pot(Red)</h3>
+                    <p class="price">₹110</p>
+                    <p>Red Umbrella pot made wtih good plastic..</p>
                     <p><button>Add to Cart</button></p>
                 </div>
             </div>
             <div class="column">
                 <div class="card">
-                    <img src="plasticpotred16inch.jpg" alt="Plastic Pot" style="width:50%">
-                    <h3>Red Buddha Pot 16 inch(PLastic)</h3>
-                    <p class="price">₹150</p>
-                    <p>Red Buddha Pot 16 inch made by good quality of plastic..</p>
+                    <img src="pots catalouge\IMG-20230930-WA00922.jpg" alt="Plastic Pot" style="width:50%">
+                    <h3>Umbrella Shaped pot(Orange)</h3>
+                    <p class="price">₹110</p>
+                    <p>Orange Umbrella pot made wtih good plastic..</p>
                     <p><button>Add to Cart</button></p>
                 </div>
             </div>

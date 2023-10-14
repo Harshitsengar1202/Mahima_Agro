@@ -344,3 +344,6 @@ html {
         margin-bottom: 20px;
     }
 }
+.nav-items a img {
+    width: 30px;
+}
